@@ -1,0 +1,9 @@
+h1 {
+    background-color: antiquewhite;
+}
+p {
+    font-size: 18px;
+    background-image: linear-gradient(to right, black, rgba(0, 0, 0, 0.112));
+}
+
+p::
