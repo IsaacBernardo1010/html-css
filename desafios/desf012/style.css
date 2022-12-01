@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 60px;
+}
+
+header > h2 > a {
+    color: white;
+    text-decoration: none;
+}
+
+div {
+    
+    padding: 80px 0px 80px 40px;
+}
+
+div.img {
+    background-image: url('imagens/background001.jpg');
+    background-position: right center;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+div.img > p {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.418);
+    color: white;
+    
+}
+
+div > p {
+    line-height: 2em;
+    padding: 3px;
+}
