@@ -19,8 +19,8 @@ header {
 
 header > h1 {
     font-family: 'Passion One', cursive;
-    font-size: 60px;
-    
+    font-size: 10vw;
+    font-variant: small-caps;
 }
 
 header > h2 {
@@ -42,7 +42,7 @@ div {
 
 div > p {
     font-family: 'Sriracha', cursive;
-    font-size: 20px;
+    font-size: 3.5vw;
 }
 
 div.img {
@@ -52,12 +52,16 @@ div.img {
     background-size: cover;
     padding-top: 10vh;
     padding-bottom: 10vh;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.479);
+    
 }
 
 div.img > p {
     display: inline-block;
-    background-color: rgba(0, 0, 0, 0.418);
-    color: white;    
+    background-color: rgba(0, 0, 0, 0.26);
+    color: white;   
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.384); 
+    border-radius: 2px;
 }
 
 div.img2 {
@@ -68,12 +72,14 @@ div.img2 {
     background-size: cover;
     padding-top: 10vh;
     padding-bottom: 10vh;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.479);
 }
 
 div.img2 > p {
     display: inline-block;
-    background-color: rgba(0, 0, 0, 0.418);
-    color: white;    
+    background-color: rgba(0, 0, 0, 0.384);
+    color: white;  
+    border-radius: 2px;  
 }
 
 .meiosup {
